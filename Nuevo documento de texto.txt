@@ -1,0 +1,46 @@
+nombre=input("ingrese nombre")
+edad = int(input("Introduce tu edad: "))
+altura = float(input("Introduce tu altura en metros: "))
+respuesta = bool(input("¿Te gusta la programación true =?: "))
+print("Datos ingresados:")
+print("Nombre:", nombre)
+print("Edad:", edad)
+print("Altura:", altura)
+print("Te gusta la programación:", respuesta)
+
+x=int(input("Ingrese primer numero:"))
+y=int(input("Ingrese segundo numero:"))
+suma=x+y
+resta=x-y
+multi=x*y
+div=x//y
+pot=x**y
+resi=x%y
+print("el valor de la suma es",suma)
+print("el valor de la resta es",resta)
+print("el valor de la multiplicacion es",multi)
+print("el valor de la division entera",div)
+print("el valor de la potenciacion es",pot)
+print("el residuo es ",resi)
+
+nombre=input("ingresa tu nombre")
+print(f"{nombre}","¿como estas?")
+
+persona={
+    "nombre": "Anibal",
+    "edad": 35,
+    "ciudad": "Santa marta",
+    "profesion": "tecnico"
+}
+print("Diccionario actualizado", persona)
+persona["hobby"]="Mecanica"
+print("Diccionario actualizado", persona)
+
+
+lista=[]
+lista=["Anibal","Martinez", "santacruz", 35,3162119246, "stacruz25ams@gmail.com", 1.64, True, False]
+print(lista)
+lista.append("bonett")
+print(lista)
+lista.remove("santacruz")
+print(lista)
